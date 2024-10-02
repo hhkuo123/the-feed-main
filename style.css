@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Itim&family=Jacquarda+Bastarda+9&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+body {
+    background-color: rgb(139 192 255 ); 
+    margin: 0 auto;
+    max-width: 100%;
+    font-family: "Irish Grover", system-ui;
+}
+
+header {
+    background-color:aquamarine;
+    text-align: center;
+    margin-top: 15%;
+}
+
+nav {
+    border: 1px solid white;
+    
+    max-width: 25%;
+    height: 100vh;
+    padding: 3%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+nav img:hover{
+    background-color:rgb(255 125 5);
+    opacity: .5;
+    transform: scale(1.0);
+}
+
+h1 {
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+h2 {
+    color:white;
+    font-family: "Itim", cursive;
+    font-size: 24px;
+}
+main {
+    border: 1px solid white;
+    max-width: 60%;
+    margin-left:25%;
+    padding: 3%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section {
+    /*border: 1px solid white;*/
+    width: 60%;
+    margin: 5%;
+    padding: 3%;
+    text-align: center;
+}
+
+/*section img {
+    border: 5px solid orange;
+    padding: 3%;
+    background-color: rgb(251,252,255 50%);
+    max-width: 100%;
+    height: auto;
+    width:auto;
+} */
+
+section img:hover {
+    transform: scale(1.05);
+}
+
+section video:hover {
+    transform: scale(1.05);
+}
+
+section video {
+    border: 5px solid crimson;
+    padding: 3%;
+    background-color: rgb(251,252,255 50%);
+    max-width: 100%;
+    height: auto;
+}
+
+p{
+    color:whitesmoke;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+    color:pink;
+}
+
+h1:hover {
+    opacity: 0.5;
+    color:pink;
+}
+
+footer {
+    padding: 3%;
+}
+
+footer h1 {
+    text-align: right;
+    background-color:#76B952;
+    width: 10%;
+    padding: 1%;
+    margin-left: 80%;
+    text-align: center;
+}
+
+header img:hover {
+    background-color:orange;
+    opacity: .5;
+    transform: scale(1.05);
+}
+
+#friends {
+    background-color:#76B952;
+    padding: 5%;
+    border: 1px solid white;
+}
+
+#group {
+    border: 5px solid orange;
+    padding: 3%;
+    width: auto;
+    
+}
+
+/*#mall img {
+    border: 5px solid orange;
+    padding: 3%; 
+    width: 100%; 
+} */
+
+/* 16 by 16 and png for cursor need to be less than 128*/
+
